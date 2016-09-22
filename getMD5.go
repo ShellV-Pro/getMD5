@@ -45,6 +45,7 @@ func main() {
 		fmt.Printf("举个栗子: =======================================\n")
 		fmt.Printf("getMD5.exe -f acgbag.html \\\\ 获取了 acgbag.html 文件哒MD5 \n")
 		fmt.Printf("getMD5.exe -s iloveyou-acgbag \\\\ 获取了 \"iloveyou-acgbag\" 这段字符串哒MD5 \n")
+		fmt.Printf("getMD5.exe -f acgbag.html>>abc.txt \\\\ 获取了 acgbag.html 文件哒MD5 然后写入 abc.txt \n")
 	}
 
 }
